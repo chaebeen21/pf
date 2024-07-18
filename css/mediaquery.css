@@ -1,0 +1,12 @@
+/* media query */
+
+@media (max-width:800px) { /* 모바일용 */
+    .pc{display: none !important;}
+    .wrap{width: 94%; margin: 0 auto;}
+}
+
+
+@media (min-width:801px) { /* PC용 */
+    .mob{display: none !important;}
+        
+    } 
