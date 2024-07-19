@@ -1,7 +1,7 @@
 /* index - main */
 main{
     background: #222;
-    overflow: visible;
+    top: 0;
 }
 main .container-xxl{
     height: 100vh;
@@ -28,7 +28,7 @@ main .blob{
     background-color: #ccc;
     overflow: visible;
 }
-@keyframes blob-animate {
+@keyframes blob-animate{
     0% {
         border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
     }
@@ -47,11 +47,13 @@ main .title-ment{
     color: #fff;
     background-color: transparent;
     mix-blend-mode: difference;
-    font-family: 'Kanit';
+    font-family: "Raleway";
     font-size: 1.6rem;
 }
 main .title-ment h3{
-    font-size: 16rem;
+    font-size: 20rem;
+    font-weight: 900;
+    line-height: 0.8;
 }
 
 
