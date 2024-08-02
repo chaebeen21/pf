@@ -1,21 +1,32 @@
-/* index - main */
+/* index main */
 main{
     background: #222;
 }
 main .container-xxl{
-    height: calc( 100vh - 56px );
+    height: calc( 100vh - 56px - 40px );
     width: 100vw;
     align-items: center;
+}
+main .title-ment{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    line-height: 0.8;
+    font-family: "Raleway";
+    font-weight: 600;
+    background-color: transparent;
+    mix-blend-mode: difference;
+    color: yellowgreen;
 }
 main .card{
     height: 96%;
     width: 80%;
+    border: none;
     flex-direction: row;
     justify-content: end;
-    align-items: center;
     background-color: transparent;
 }
-
 main .blob{
     height: 100%;
     width: 100%;
@@ -35,24 +46,6 @@ main .blob{
         border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
     }
 }
-main .title-ment{
-    position: absolute;
-    z-index: 10;
-    left: 0;
-    width: 100%;
-    background-color: transparent;
-    mix-blend-mode: difference;
-    font-family: "Raleway";
-    font-size: 1.6rem;
-    font-weight: 200;
-    color: #fff;
-}
-main .title-ment h3{
-    font-size: 24rem;
-    font-weight: 600;
-    line-height: 0.8;
-    margin-bottom: 2.4rem;
-    color: yellowgreen;
-}
+
 
 

@@ -1,9 +1,10 @@
 /* common */
 html{
+	font-size: 16px;
 	font-size: 62.5%;
 }
 body{
-	font: 1.6rem "Noto Sans KR", sans-serif !important;
+	font: 1.6rem "Noto Sans KR", sans-serif;
 	color: #333;
 }
 img{
@@ -30,7 +31,7 @@ ul:after, .wrap:after, .cl:after{
 
 
 .container-wrap{
-	width: 1400px; margin: 0 auto; position: relative;
+	margin: 0 auto; position: relative;
 }
 div[class^="container-"]{
 	position: relative;

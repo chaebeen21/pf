@@ -5,9 +5,6 @@ header{
     height: 56px;
     background-color: #222;
 }
-main{
-    position: static;
-}
 .navbar{
     padding: 16px 0;
     box-sizing: border-box;
@@ -15,6 +12,7 @@ main{
 }
 .navbar .navbar-brand{
     color: #fff;
+    font-size: 1.8rem;
 }
 .navbar .navbar-nav{
     width: 100%;
@@ -27,4 +25,16 @@ main{
 }
 .navbar-toggler{
     border : none;
+}
+
+/* footer */
+footer{
+    background-color: #222;
+    height: 40px;
+}
+.home-footer{
+    font-size: 1.6rem;
+    color: #999;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -1,4 +1,8 @@
-<header>
+/* common header */
+document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('header');
+    container.innerHTML = `
+
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-xxl">
             <h1><a class="navbar-brand" href="#">CHAEB</a></h1>
@@ -9,8 +13,8 @@
             <!--nav-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="about_me.html">ABOUT ME</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../pages/about_me.html">ABOUT ME</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">PAGES</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">CONTACT</a></li>
@@ -34,4 +38,17 @@
             </div>
         </div>
     </nav>
-</header>
+    
+    `;
+});
+
+
+/* common footer */
+// document.addEventListener('DOMContentLoaded', () => {
+//     const container = document.querySelector('footer');
+//     container.innerHTML = `
+
+//     <!-- footer -->
+
+//     `;
+// });

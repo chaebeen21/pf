@@ -1,12 +1,58 @@
-/* media query */
-
-@media (max-width:800px) { /* 모바일용 */
+ /* 모바일용 */
+@media (max-width:767px) {
     .pc{display: none !important;}
     .wrap{width: 94%; margin: 0 auto;}
 }
+@media screen and (max-width:767px){
+    /*common*/
+    .container-wrap{
+        width: 94% !important;
+    }
+
+    /*main*/
+    main .container-xxl{
+        height: calc( 100vh - 56px - 88px );
+        width: 100vw;
+        align-items: center;
+    }
+    main .title-ment{
+        font-size: 20vw;
+        line-height: 1;
+    }
+    /*footer*/
+    footer{
+        height: 88px;
+    }
+    footer .home-footer{
+        flex-direction: column;
+    }
+    footer .home-footer p span{
+        display: block;
+    }
+}
 
 
-@media (min-width:801px) { /* PC용 */
+
+/* 테블릿용 */
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    /*common*/
+    .container-wrap{
+        width: 94% !important;
+    }
+    main .title-ment{
+        font-size: 18vw;
+        line-height: 1;
+    }
+}
+
+
+
+/* PC용 */
+@media (min-width:1025px) { 
     .mob{display: none !important;}
-        
-    } 
+}
+@media screen and (min-width:1025px) {
+    main .title-ment{
+        font-size: 22rem;
+    }
+}
